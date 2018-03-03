@@ -1,0 +1,3 @@
+In the part1.js file, write a function changeColor that when invoked will first check if the body background color is rgb(221, 238, 255). You can refer to the index.css file to inspect the css, but do not edit the file.
+If the body background color is rgb(221,238,255) changeColor should change it to rgb(255,238,221). Ifit isn't, changeColor should change the color back to rgb(221,238,255).
+Add an event listener to button #1. IT has an id of "activate". On click, the button should log to the console 'clicked #1'. It should also set-up a click event listener on button #2 with ID of color. The listener should log to console 'clicked #2' and then call the changeColor function you just created.
